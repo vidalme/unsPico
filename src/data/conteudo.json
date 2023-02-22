@@ -1,0 +1,327 @@
+[
+  {
+    "nome": "Fortaleza",
+    "id": "1",
+    "url": "/fortaleza.html",
+    "praias": [
+      {
+        "id": 1,
+        "nome": "Praia do Futuro",
+        "epoca": "Gera o ano todo, mas rola pegar lisinho quando o vento diminui entre fevereiro e junho",
+
+        "descricao": "Na pf sempre tem, pf engana, la de fora parce que nao tem nada.... Praia do futuro recebe muitas criticas, é a praia que todo mundo gosta de odiar, mas é o pico mais democratico e igualitario de Fortaleza, easy to learn, hard to master",
+        "mare": "Na enchente da parte da manha ou secando a tarde",
+        "ondulacao": "ondulacao vinda de norte e nordeste",
+        "vento": "terralzinho no fim da tarde é perfeito",
+        "pics": {
+          "path": "/imgs/fortaleza/praiadofuturo/",
+          "urls": [
+            "pf01.jpg",
+            "pf02.jpg",
+            "pf03.jpg",
+            "pf04.jpg",
+            "pf05.jpg",
+            "pf06.jpg"
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "nome": "Sabiaguaba",
+        "epoca": "Quando a mare tira a areia de cima das pedras, fim do ano ate o carnaval",
+
+        "descricao": "Funciona melhor quando as pedras ficam cobertas de areia por conta do backwash, period de fevereiro ate junho",
+        "mare": "Mare bem cheia ou de meia pra cheia",
+        "ondulacao": "Norte e Nordeste",
+        "vento": "Terral da aquela penteada na crista, mas funciona com vento maral tb, deixa storm e grande",
+        "pics": {
+          "path": "/imgs/fortaleza/sabiaguaba/",
+          "urls": ["sabi01.jpg", "sabi02.jpg", "sabi03.jpg"]
+        }
+      },
+      {
+        "id": 3,
+        "nome": "Cofeco",
+        "epoca": "Gera o ano com perfeição",
+
+        "descricao": "Comumente pequeno porem com uma onda bem formada, pico disputado mas com espaco legal pra todo mundo",
+        "mare": "Na enchente da parte da manha ou secando a tarde",
+        "ondulacao": "ondulacao vinda de norte e nordeste",
+        "vento": "terralzinho no fim da tarde é perfeito",
+        "pics": {
+          "path": "/imgs/fortaleza/cofeco/",
+          "urls": [
+            "cofeco01.jpg",
+            "cofeco02.jpg",
+            "cofeco03.jpg",
+            "cofeco04.jpg",
+            "cofeco05.jpg"
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "nome": "Titanzinho",
+        "epoca": "Outubro a dezembro",
+
+        "descricao": "O circulo de ouro da cidade, varios picos formam esse presente aos fortalezaenses",
+        "mare": "Tanto na seca como cheia, porem na enchente é qauando gera mais",
+        "ondulacao": "pico protegido, mas quando vem de nordeste deixa o pico perfeito",
+        "vento": "vento dificilmente entra aqui e esta sempre liso",
+        "pics": {
+          "path": "/imgs/fortaleza/titanzinho/",
+          "urls": ["titan01.jpg", "titan02.jpg", "titan03.jpg", "titan04.jpg"]
+        }
+      },
+      {
+        "id": 5,
+        "nome": "Portao",
+        "epoca": "Fevereiro",
+
+        "descricao": "Epoca do ano melhor é agosto a dezembro quando a lua esta cheia com amplitude de mares o maior possivel",
+        "mare": "Completamente seca aqui é o gera!",
+        "ondulacao": "ondulacao vinda mais exotica, ate completamente de oeste ainda funciona",
+        "vento": "entra pouco veneto aqui, normalmente nao faz muita diferenca",
+        "pics": {
+          "path": "/imgs/fortaleza/portao/",
+          "urls": [
+            "portao01.jpg",
+            "portao02.jpg",
+            "portao03.jpg",
+            "portao04.jpg"
+          ]
+        }
+      },
+      {
+        "id": 6,
+        "nome": "Vizinho",
+        "epoca": "Segundo semetre inteiro",
+
+        "descricao": "Extensao da praia do futuro porem com protecao lateral",
+        "mare": "Mesma mares da praia do futuro",
+        "ondulacao": "Mesma ondulacao da praia do futuro",
+        "vento": "Mesmo vento da praia do futuro",
+        "pics": {
+          "path": "/imgs/fortaleza/vizinho/",
+          "urls": [
+            "vizinho01.jpg",
+            "vizinho02.jpg",
+            "vizinho03.jpg",
+            "vizinho04.jpg",
+            "vizinho05.jpg"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "nome": "Aquiraz",
+    "id": "2",
+    "url": "/aquiraz.html",
+    "praias": [
+      {
+        "id": 1,
+        "nome": "PDD",
+
+        "descricao": "Porto das Dunas é um pico que quando tem ondulação se destaca pela clareza da agua e perfeicao das ondas, a agua é bem mais limpa que a da praia do futuro porem o mar é menor.",
+        "mare": "Na enchente da parte da manha ou secando a tarde",
+        "ondulacao": "ondulacao vinda de norte e nordeste",
+        "vento": "terralzinho no fim da tarde é perfeito",
+        "pics": {
+          "path": "/imgs/fortaleza/praiadofuturo/",
+          "urls": [
+            "pf01.jpg",
+            "pf02.jpg",
+            "pf03.jpg",
+            "pf04.jpg",
+            "pf05.jpg",
+            "pf06.jpg"
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "nome": "Iguape",
+
+        "descricao": "Fica completamente flat sem ondulação boa, apenas com uma direita longa no pontao, porem quando entra swell com um vento terral aqui gera uma das ondas mas perfeitas da costa leste",
+        "mare": "Mare bem cheia ou de meia pra cheia",
+        "ondulacao": "Norte e Nordeste",
+        "vento": "Terral da aquela penteada na crista, mas funciona com vento maral tb, deixa storm e grande",
+        "pics": {
+          "path": "/imgs/fortaleza/sabiaguaba/",
+          "urls": ["sabi01.jpg", "sabi02.jpg", "sabi03.jpg"]
+        }
+      },
+      {
+        "id": 3,
+        "nome": "Lagoinha",
+        "descricao": "Comumente pequeno porem com uma onda bem formada, pico disputado mas com espaco legal pra todo mundo",
+        "mare": "Na enchente da parte da manha ou secando a tarde",
+        "ondulacao": "ondulacao vinda de norte e nordeste",
+        "vento": "terralzinho no fim da tarde é perfeito",
+        "pics": {
+          "path": "/imgs/fortaleza/cofeco/",
+          "urls": [
+            "cofeco01.jpg",
+            "cofeco02.jpg",
+            "cofeco03.jpg",
+            "cofeco04.jpg",
+            "cofeco05.jpg"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "nome": "Caucaia",
+    "id": "3",
+    "url": "/caucaia.html",
+    "praias": [
+      {
+        "id": 1,
+        "nome": "Iparana",
+
+        "descricao": "Iparana se esconde atras do caminho saindo de fortaleza para o Icarai, com poucas vias de acesso e uma entrada sobre as pedras recebe poucos surfistas nao locais",
+        "mare": "Na enchente da parte da manha ou secando a tarde",
+        "ondulacao": "ondulacao vinda de norte e nordeste",
+        "vento": "terralzinho no fim da tarde é perfeito",
+        "pics": {
+          "path": "/imgs/fortaleza/praiadofuturo/",
+          "urls": [
+            "pf01.jpg",
+            "pf02.jpg",
+            "pf03.jpg",
+            "pf04.jpg",
+            "pf05.jpg",
+            "pf06.jpg"
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "nome": "Icarai",
+
+        "descricao": "Funciona melhor quando as pedras ficam cobertas de areia por conta do backwash, period de fevereiro ate junho",
+        "mare": "Mare bem cheia ou de meia pra cheia",
+        "ondulacao": "Norte e Nordeste",
+        "vento": "Terral da aquela penteada na crista, mas funciona com vento maral tb, deixa storm e grande",
+        "pics": {
+          "path": "/imgs/fortaleza/sabiaguaba/",
+          "urls": ["sabi01.jpg", "sabi02.jpg", "sabi03.jpg"]
+        }
+      },
+      {
+        "id": 3,
+        "nome": "Pico das Almas",
+        "descricao": "Comumente pequeno porem com uma onda bem formada, pico disputado mas com espaco legal pra todo mundo",
+        "mare": "Na enchente da parte da manha ou secando a tarde",
+        "ondulacao": "ondulacao vinda de norte e nordeste",
+        "vento": "terralzinho no fim da tarde é perfeito",
+        "pics": {
+          "path": "/imgs/fortaleza/cofeco/",
+          "urls": [
+            "cofeco01.jpg",
+            "cofeco02.jpg",
+            "cofeco03.jpg",
+            "cofeco04.jpg",
+            "cofeco05.jpg"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "nome": "Ubatuba",
+    "id": "4",
+    "url": "/Ubatuba.html",
+    "praias": [
+      {
+        "id": 1,
+        "nome": "Itamambuca",
+
+        "descricao": "Praia de Itamambuca ja foi pico de etapa do WCT, com uma direita fenomenal",
+        "mare": "Na enchente da parte da manha ou secando a tarde",
+        "ondulacao": "ondulacao vinda de norte e nordeste",
+        "vento": "terralzinho no fim da tarde é perfeito",
+        "pics": {
+          "path": "/imgs/fortaleza/praiadofuturo/",
+          "urls": [
+            "pf01.jpg",
+            "pf02.jpg",
+            "pf03.jpg",
+            "pf04.jpg",
+            "pf05.jpg",
+            "pf06.jpg"
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "nome": "Vermelha",
+
+        "descricao": "Funciona melhor quando as pedras ficam cobertas de areia por conta do backwash, period de fevereiro ate junho",
+        "mare": "Mare bem cheia ou de meia pra cheia",
+        "ondulacao": "Norte e Nordeste",
+        "vento": "Terral da aquela penteada na crista, mas funciona com vento maral tb, deixa storm e grande",
+        "pics": {
+          "path": "/imgs/fortaleza/sabiaguaba/",
+          "urls": ["sabi01.jpg", "sabi02.jpg", "sabi03.jpg"]
+        }
+      },
+      {
+        "id": 3,
+        "nome": "Felix",
+        "descricao": "Comumente pequeno porem com uma onda bem formada, pico disputado mas com espaco legal pra todo mundo",
+        "mare": "Na enchente da parte da manha ou secando a tarde",
+        "ondulacao": "ondulacao vinda de norte e nordeste",
+        "vento": "terralzinho no fim da tarde é perfeito",
+        "pics": {
+          "path": "/imgs/fortaleza/cofeco/",
+          "urls": [
+            "cofeco01.jpg",
+            "cofeco02.jpg",
+            "cofeco03.jpg",
+            "cofeco04.jpg",
+            "cofeco05.jpg"
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "nome": "Português",
+        "descricao": "Comumente pequeno porem com uma onda bem formada, pico disputado mas com espaco legal pra todo mundo",
+        "mare": "Na enchente da parte da manha ou secando a tarde",
+        "ondulacao": "ondulacao vinda de norte e nordeste",
+        "vento": "terralzinho no fim da tarde é perfeito",
+        "pics": {
+          "path": "/imgs/fortaleza/cofeco/",
+          "urls": [
+            "cofeco01.jpg",
+            "cofeco02.jpg",
+            "cofeco03.jpg",
+            "cofeco04.jpg",
+            "cofeco05.jpg"
+          ]
+        }
+      },
+      {
+        "id": 5,
+        "nome": "Toninhas",
+        "descricao": "Comumente pequeno porem com uma onda bem formada, pico disputado mas com espaco legal pra todo mundo",
+        "mare": "Na enchente da parte da manha ou secando a tarde",
+        "ondulacao": "ondulacao vinda de norte e nordeste",
+        "vento": "terralzinho no fim da tarde é perfeito",
+        "pics": {
+          "path": "/imgs/fortaleza/cofeco/",
+          "urls": [
+            "cofeco01.jpg",
+            "cofeco02.jpg",
+            "cofeco03.jpg",
+            "cofeco04.jpg",
+            "cofeco05.jpg"
+          ]
+        }
+      }
+    ]
+  }
+]
