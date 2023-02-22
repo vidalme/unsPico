@@ -323,5 +323,288 @@
         }
       }
     ]
+  },
+
+  {
+    "nome": "Noronha",
+    "id": "5",
+    "url": "/Ubatuba.html",
+    "praias": [
+      {
+        "id": 1013,
+        "nome": "Itamambuca",
+
+        "descricao": "Praia de Itamambuca ja foi pico de etapa do WCT, com uma direita fenomenal",
+        "mare": "Na enchente da parte da manha ou secando a tarde",
+        "ondulacao": "ondulacao vinda de norte e nordeste",
+        "vento": "terralzinho no fim da tarde é perfeito",
+        "pics": {
+          "path": "/imgs/fortaleza/praiadofuturo/",
+          "urls": [
+            "pf01.jpg",
+            "pf02.jpg",
+            "pf03.jpg",
+            "pf04.jpg",
+            "pf05.jpg",
+            "pf06.jpg"
+          ]
+        }
+      },
+      {
+        "id": 1014,
+        "nome": "Vermelha",
+
+        "descricao": "Funciona melhor quando as pedras ficam cobertas de areia por conta do backwash, period de fevereiro ate junho",
+        "mare": "Mare bem cheia ou de meia pra cheia",
+        "ondulacao": "Norte e Nordeste",
+        "vento": "Terral da aquela penteada na crista, mas funciona com vento maral tb, deixa storm e grande",
+        "pics": {
+          "path": "/imgs/fortaleza/sabiaguaba/",
+          "urls": ["sabi01.jpg", "sabi02.jpg", "sabi03.jpg"]
+        }
+      },
+      {
+        "id": 1015,
+        "nome": "Felix",
+        "descricao": "Comumente pequeno porem com uma onda bem formada, pico disputado mas com espaco legal pra todo mundo",
+        "mare": "Na enchente da parte da manha ou secando a tarde",
+        "ondulacao": "ondulacao vinda de norte e nordeste",
+        "vento": "terralzinho no fim da tarde é perfeito",
+        "pics": {
+          "path": "/imgs/fortaleza/cofeco/",
+          "urls": [
+            "cofeco01.jpg",
+            "cofeco02.jpg",
+            "cofeco03.jpg",
+            "cofeco04.jpg",
+            "cofeco05.jpg"
+          ]
+        }
+      },
+      {
+        "id": 1016,
+        "nome": "Português",
+        "descricao": "Comumente pequeno porem com uma onda bem formada, pico disputado mas com espaco legal pra todo mundo",
+        "mare": "Na enchente da parte da manha ou secando a tarde",
+        "ondulacao": "ondulacao vinda de norte e nordeste",
+        "vento": "terralzinho no fim da tarde é perfeito",
+        "pics": {
+          "path": "/imgs/fortaleza/cofeco/",
+          "urls": [
+            "cofeco01.jpg",
+            "cofeco02.jpg",
+            "cofeco03.jpg",
+            "cofeco04.jpg",
+            "cofeco05.jpg"
+          ]
+        }
+      },
+      {
+        "id": 1017,
+        "nome": "Toninhas",
+        "descricao": "Comumente pequeno porem com uma onda bem formada, pico disputado mas com espaco legal pra todo mundo",
+        "mare": "Na enchente da parte da manha ou secando a tarde",
+        "ondulacao": "ondulacao vinda de norte e nordeste",
+        "vento": "terralzinho no fim da tarde é perfeito",
+        "pics": {
+          "path": "/imgs/fortaleza/cofeco/",
+          "urls": [
+            "cofeco01.jpg",
+            "cofeco02.jpg",
+            "cofeco03.jpg",
+            "cofeco04.jpg",
+            "cofeco05.jpg"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "nome": "Tibau",
+    "id": "6",
+    "url": "/Ubatuba.html",
+    "praias": [
+      {
+        "id": 1013,
+        "nome": "Itamambuca",
+
+        "descricao": "Praia de Itamambuca ja foi pico de etapa do WCT, com uma direita fenomenal",
+        "mare": "Na enchente da parte da manha ou secando a tarde",
+        "ondulacao": "ondulacao vinda de norte e nordeste",
+        "vento": "terralzinho no fim da tarde é perfeito",
+        "pics": {
+          "path": "/imgs/fortaleza/praiadofuturo/",
+          "urls": [
+            "pf01.jpg",
+            "pf02.jpg",
+            "pf03.jpg",
+            "pf04.jpg",
+            "pf05.jpg",
+            "pf06.jpg"
+          ]
+        }
+      },
+      {
+        "id": 1014,
+        "nome": "Vermelha",
+
+        "descricao": "Funciona melhor quando as pedras ficam cobertas de areia por conta do backwash, period de fevereiro ate junho",
+        "mare": "Mare bem cheia ou de meia pra cheia",
+        "ondulacao": "Norte e Nordeste",
+        "vento": "Terral da aquela penteada na crista, mas funciona com vento maral tb, deixa storm e grande",
+        "pics": {
+          "path": "/imgs/fortaleza/sabiaguaba/",
+          "urls": ["sabi01.jpg", "sabi02.jpg", "sabi03.jpg"]
+        }
+      },
+      {
+        "id": 1015,
+        "nome": "Felix",
+        "descricao": "Comumente pequeno porem com uma onda bem formada, pico disputado mas com espaco legal pra todo mundo",
+        "mare": "Na enchente da parte da manha ou secando a tarde",
+        "ondulacao": "ondulacao vinda de norte e nordeste",
+        "vento": "terralzinho no fim da tarde é perfeito",
+        "pics": {
+          "path": "/imgs/fortaleza/cofeco/",
+          "urls": [
+            "cofeco01.jpg",
+            "cofeco02.jpg",
+            "cofeco03.jpg",
+            "cofeco04.jpg",
+            "cofeco05.jpg"
+          ]
+        }
+      },
+      {
+        "id": 1016,
+        "nome": "Português",
+        "descricao": "Comumente pequeno porem com uma onda bem formada, pico disputado mas com espaco legal pra todo mundo",
+        "mare": "Na enchente da parte da manha ou secando a tarde",
+        "ondulacao": "ondulacao vinda de norte e nordeste",
+        "vento": "terralzinho no fim da tarde é perfeito",
+        "pics": {
+          "path": "/imgs/fortaleza/cofeco/",
+          "urls": [
+            "cofeco01.jpg",
+            "cofeco02.jpg",
+            "cofeco03.jpg",
+            "cofeco04.jpg",
+            "cofeco05.jpg"
+          ]
+        }
+      },
+      {
+        "id": 1017,
+        "nome": "Toninhas",
+        "descricao": "Comumente pequeno porem com uma onda bem formada, pico disputado mas com espaco legal pra todo mundo",
+        "mare": "Na enchente da parte da manha ou secando a tarde",
+        "ondulacao": "ondulacao vinda de norte e nordeste",
+        "vento": "terralzinho no fim da tarde é perfeito",
+        "pics": {
+          "path": "/imgs/fortaleza/cofeco/",
+          "urls": [
+            "cofeco01.jpg",
+            "cofeco02.jpg",
+            "cofeco03.jpg",
+            "cofeco04.jpg",
+            "cofeco05.jpg"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "nome": "Rio de Janeiro",
+    "id": "7",
+    "url": "/Ubatuba.html",
+    "praias": [
+      {
+        "id": 1013,
+        "nome": "Itamambuca",
+
+        "descricao": "Praia de Itamambuca ja foi pico de etapa do WCT, com uma direita fenomenal",
+        "mare": "Na enchente da parte da manha ou secando a tarde",
+        "ondulacao": "ondulacao vinda de norte e nordeste",
+        "vento": "terralzinho no fim da tarde é perfeito",
+        "pics": {
+          "path": "/imgs/fortaleza/praiadofuturo/",
+          "urls": [
+            "pf01.jpg",
+            "pf02.jpg",
+            "pf03.jpg",
+            "pf04.jpg",
+            "pf05.jpg",
+            "pf06.jpg"
+          ]
+        }
+      },
+      {
+        "id": 1014,
+        "nome": "Vermelha",
+
+        "descricao": "Funciona melhor quando as pedras ficam cobertas de areia por conta do backwash, period de fevereiro ate junho",
+        "mare": "Mare bem cheia ou de meia pra cheia",
+        "ondulacao": "Norte e Nordeste",
+        "vento": "Terral da aquela penteada na crista, mas funciona com vento maral tb, deixa storm e grande",
+        "pics": {
+          "path": "/imgs/fortaleza/sabiaguaba/",
+          "urls": ["sabi01.jpg", "sabi02.jpg", "sabi03.jpg"]
+        }
+      },
+      {
+        "id": 1015,
+        "nome": "Felix",
+        "descricao": "Comumente pequeno porem com uma onda bem formada, pico disputado mas com espaco legal pra todo mundo",
+        "mare": "Na enchente da parte da manha ou secando a tarde",
+        "ondulacao": "ondulacao vinda de norte e nordeste",
+        "vento": "terralzinho no fim da tarde é perfeito",
+        "pics": {
+          "path": "/imgs/fortaleza/cofeco/",
+          "urls": [
+            "cofeco01.jpg",
+            "cofeco02.jpg",
+            "cofeco03.jpg",
+            "cofeco04.jpg",
+            "cofeco05.jpg"
+          ]
+        }
+      },
+      {
+        "id": 1016,
+        "nome": "Português",
+        "descricao": "Comumente pequeno porem com uma onda bem formada, pico disputado mas com espaco legal pra todo mundo",
+        "mare": "Na enchente da parte da manha ou secando a tarde",
+        "ondulacao": "ondulacao vinda de norte e nordeste",
+        "vento": "terralzinho no fim da tarde é perfeito",
+        "pics": {
+          "path": "/imgs/fortaleza/cofeco/",
+          "urls": [
+            "cofeco01.jpg",
+            "cofeco02.jpg",
+            "cofeco03.jpg",
+            "cofeco04.jpg",
+            "cofeco05.jpg"
+          ]
+        }
+      },
+      {
+        "id": 1017,
+        "nome": "Toninhas",
+        "descricao": "Comumente pequeno porem com uma onda bem formada, pico disputado mas com espaco legal pra todo mundo",
+        "mare": "Na enchente da parte da manha ou secando a tarde",
+        "ondulacao": "ondulacao vinda de norte e nordeste",
+        "vento": "terralzinho no fim da tarde é perfeito",
+        "pics": {
+          "path": "/imgs/fortaleza/cofeco/",
+          "urls": [
+            "cofeco01.jpg",
+            "cofeco02.jpg",
+            "cofeco03.jpg",
+            "cofeco04.jpg",
+            "cofeco05.jpg"
+          ]
+        }
+      }
+    ]
   }
 ]

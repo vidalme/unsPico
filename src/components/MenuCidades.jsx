@@ -1,10 +1,7 @@
 import { useState } from "react";
-import Cidade from "./Cidade";
 import { MenuPraias } from "./MenuPraias";
 
 const MenuCidades = ({ cidades }) => {
-  // const cids = cidades.data.record;
-
   const cids = cidades.meuJSON;
 
   if (cids ?? false) {
@@ -12,8 +9,6 @@ const MenuCidades = ({ cidades }) => {
 
     const handleClick = (e) => {
       const clicado = cids.find((m) => m.id === e.target.id);
-      console.log(clicado);
-      console.log(subMenu);
       clicado && setSubMenu(clicado);
       clicado === subMenu && setSubMenu({});
     };
@@ -28,7 +23,7 @@ const MenuCidades = ({ cidades }) => {
               className="botao-menu-cidades"
               onClick={handleClick}
             >
-              {cidade.nome}
+              <span>{cidade.nome}</span>
               {cidade === subMenu && <MenuPraias praias={cidade.praias} />}
             </li>
           );

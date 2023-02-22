@@ -1,14 +1,21 @@
 import { useState } from "react";
-import meuJSON from "../data/conteudo.json";
-
-const { praias } = meuJSON[0];
+import Praia from "./Praia";
 
 export const MenuPraias = ({ praias }) => {
   const [picoDisplay, setPicoDisplay] = useState({});
 
   function handleClick(e) {
-    //console.log(praias.filter((p) => console.log(p.nome)));
-    // console.log(praias.filter((p) => p.name === e.target.innerText));
+    const pico = praias.find((p) => {
+      return p.id === Number(e.target.id);
+    });
+
+    pico &&
+      setPicoDisplay(() => {
+        return pico;
+      });
+
+    // console.log(pico);
+    // console.log(picoDisplay);
   }
   return (
     <ul className="menu-praias">
@@ -20,7 +27,8 @@ export const MenuPraias = ({ praias }) => {
             key={praia.id}
             id={praia.id}
           >
-            {praia.nome}
+            <span>{praia.nome}</span>
+            {praia === picoDisplay && <Praia praia={praia} />}
           </li>
         );
       })}
