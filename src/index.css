@@ -8,44 +8,55 @@
 
 body {
   font-family: Roboto, Arial, sans-serif;
-  color: white;
   display: flex;
   min-width: 320px;
   min-height: 100vh;
-  background-image: linear-gradient(rgb(221, 145, 217), rgb(74, 45, 141));
-}
+  background-color: #303c47;
 
+  /* background-image: linear-gradient(#41525f, #1c252c); */
+}
+a:after {
+  content: "";
+  border: 4px solid transparent;
+  border-top: 4px solid white;
+  margin-left: 2px;
+  margin-bottom: 3px;
+  display: inline-block;
+  vertical-align: bottom;
+}
 ul.menu-cidades {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  color: rgb(255, 255, 255);
   border-radius: 1rem;
-  border: solid 5px rgb(188, 50, 223);
-  background-color: rgb(30, 30, 44);
+  border: solid 5px #f48484;
+  /* background-image: linear-gradient(#f48484, #af3568); */
+  /* background-color: #e8d2a6; */
   text-align: left;
   min-width: 350px;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.8);
 }
 li.botao-menu-cidades {
   list-style: none;
   cursor: pointer;
   font-size: 1.4rem;
+  font-weight: 700;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+  color: #252f38;
+}
+li.botao-menu-cidades:hover {
+  background-color: #f48484;
 }
 li.botao-menu-cidades > span {
   padding-left: 1.4rem;
 }
 
-li.botao-menu-cidades:hover {
-  background-color: rgb(42, 42, 58);
-}
 li.botao-menu-cidades:active {
-  background-color: rgb(42, 42, 58);
+  background-color: #f48484;
 }
 
 div.praia-holder {
-  background-color: rgb(190, 43, 141);
+  background-color: #f48484;
   padding-top: 2rem;
   width: 80vw;
   max-width: 350px;
@@ -74,7 +85,7 @@ ul.menu-praias {
   font-size: 1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  background-color: rgb(50, 50, 73);
+  background-color: #f48484;
   text-align: left;
   min-width: 350px;
 }
@@ -90,5 +101,5 @@ li.botao-menu-praias > span {
 }
 
 li.botao-menu-praias:hover {
-  background-color: rgb(190, 43, 141);
+  background-color: #f55050;
 }
