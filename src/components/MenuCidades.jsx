@@ -8,22 +8,14 @@ const MenuCidades = ({ cidades }) => {
   const cids = cidades.meuJSON;
 
   if (cids ?? false) {
-    cids.map((cid) => (cid.aberto = false));
-
     const [subMenu, setSubMenu] = useState({});
 
     const handleClick = (e) => {
-      const acionado = cids.find((m) => m.nome === e.target.innerText);
-
-      if (acionado === subMenu) {
-        console.log("mesmobotao");
-      } else {
-        // console.log(acionado.nome);
-        acionado.aberto = true;
-        setSubMenu(() => {
-          return acionado;
-        });
-      }
+      const clicado = cids.find((m) => m.id === e.target.id);
+      console.log(clicado);
+      console.log(subMenu);
+      clicado && setSubMenu(clicado);
+      clicado === subMenu && setSubMenu({});
     };
 
     return (
@@ -32,13 +24,12 @@ const MenuCidades = ({ cidades }) => {
           return (
             <li
               key={cidade.id}
+              id={cidade.id}
               className="botao-menu-cidades"
               onClick={handleClick}
             >
               {cidade.nome}
-              {cidade.aberto && cidade !== subMenu
-                ? console.log("abriu")
-                : console.log("nada")}
+              {cidade === subMenu && <MenuPraias praias={cidade.praias} />}
             </li>
           );
         })}
