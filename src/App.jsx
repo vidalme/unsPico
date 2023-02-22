@@ -12,8 +12,7 @@ function App() {
   return (
     <div className="App">
       <nav>
-        <MenuPraias />
-        {/* <MenuCidades cidades={{ meuJSON }} /> */}
+        <MenuCidades cidades={{ meuJSON }} />
       </nav>
     </div>
   );
