@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -5,6 +7,8 @@
 }
 
 body {
+  font-family: Roboto, Arial, sans-serif;
+  color: white;
   display: flex;
   min-width: 320px;
   min-height: 100vh;
@@ -14,8 +18,7 @@ body {
 ul.menu-cidades {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-family: Arial, Helvetica, sans-serif;
-  color: bisque;
+  color: rgb(255, 255, 255);
   border-radius: 1rem;
   background-color: rgb(30, 30, 44);
   text-align: left;
@@ -42,21 +45,40 @@ div.praia-holder {
 }
 
 div.praia-holder > h3 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
   text-align: left;
-  width: 90%;
   padding-left: 2rem;
-  padding-top: 1rem;
+  padding-top: 1.5rem;
 }
 div.praia-holder > h4 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
   text-align: left;
   width: 90%;
   padding-left: 2rem;
-  padding-top: 0.5rem;
 }
 
 img.pico-img {
   width: 80vw;
   margin-top: 2rem;
+}
+
+ul.menu-praias {
+  font-size: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: rgb(50, 50, 73);
+  text-align: left;
+  min-width: 350px;
+}
+
+li.botao-menu-praias {
+  list-style: none;
+  padding: 0.75rem;
+  padding-left: 2rem;
+  cursor: pointer;
+}
+li.botao-menu-praias:hover {
+  background-color: rgb(87, 87, 100);
 }
