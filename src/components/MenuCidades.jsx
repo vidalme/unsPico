@@ -23,6 +23,7 @@ const MenuCidades = ({ cidades }) => {
               id={cidade.id}
               className="botao-menu-cidades"
               onClick={handleClick}
+              style={{ backgroundColor: cidade === subMenu && "#ffffff" }}
             >
               <span>{cidade.nome}</span>
               {cidade === subMenu && <MenuPraias praias={cidade.praias} />}
