@@ -13,9 +13,7 @@ export const MenuPraias = ({ praias }) => {
       setPicoDisplay(() => {
         return pico;
       });
-
-    // console.log(pico);
-    // console.log(picoDisplay);
+    pico === picoDisplay && setPicoDisplay({});
   }
   return (
     <ul className="menu-praias">
@@ -26,6 +24,7 @@ export const MenuPraias = ({ praias }) => {
             className="botao-menu-praias"
             key={praia.id}
             id={praia.id}
+            style={{ backgroundColor: praia === picoDisplay && "#e96479" }}
           >
             <span>{praia.nome}</span>
             {praia === picoDisplay && <Praia praia={praia} />}

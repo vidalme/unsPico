@@ -9,7 +9,6 @@ const MenuCidades = ({ cidades }) => {
 
     const handleClick = (e) => {
       const clicado = cids.find((m) => m.id === e.target.id);
-      console.log(e.target);
       clicado && setSubMenu(clicado);
       clicado === subMenu && setSubMenu({});
     };
@@ -23,7 +22,7 @@ const MenuCidades = ({ cidades }) => {
               id={cidade.id}
               className="botao-menu-cidades"
               onClick={handleClick}
-              style={{ backgroundColor: cidade === subMenu && "#ffffff" }}
+              style={{ backgroundColor: cidade === subMenu && "#4D455D" }}
             >
               <span>{cidade.nome}</span>
               {cidade === subMenu && <MenuPraias praias={cidade.praias} />}

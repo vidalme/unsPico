@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import MenuCidades from "./components/MenuCidades";
-import meuJSON from "./data/conteudo.json";
+import meuJSON from "./data/conteudo.json"; //para testes locais
 import "./App.css";
 import Praia from "./components/Praia";
 import { MenuPraias } from "./components/MenuPraias";
@@ -8,6 +8,8 @@ import { MenuPraias } from "./components/MenuPraias";
 const API_KEY = "$2b$10$A9ZfAqFqTvYD6l9KBYrkKOikHzCc30V/hHlrK.C0ajDLZ9BObsNJ2";
 const url = "https://api.jsonbin.io/v3/b/63f506e7c0e7653a057be5f2";
 
+//puxando os dados online tem limite de requisicoes,
+//testes podem ser feitos trocando a incializacao por esse
 function App() {
   return (
     <div className="App">
@@ -17,10 +19,6 @@ function App() {
     </div>
   );
 }
-
-// puxando os dados online tem limite de requisicoes,
-//entao vou deixar comentado aqui pra nao gastar
-//por enquanto os testes vao ser com arquivos locais
 
 // function App() {
 //   console.log(meuJSON);
