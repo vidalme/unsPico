@@ -132,9 +132,13 @@ li.botao-menu-praias:hover {
 
 img.pico-img {
   max-width: 350px;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
 }
 
 .praia-holder-div {
   margin-left: 1.5rem;
+}
+.praias-pics {
+  width: 100%;
+  /* border: solid 2px greenyellow; */
 }
