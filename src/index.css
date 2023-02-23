@@ -11,7 +11,7 @@ body {
   display: flex;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #303c47;
+  background-color: #6096b4;
 
   /* background-image: linear-gradient(#41525f, #1c252c); */
 }
@@ -28,12 +28,12 @@ ul.menu-cidades {
   padding-top: 1rem;
   padding-bottom: 1rem;
   border-radius: 1rem;
-  border: solid 5px #f48484;
+  border: solid 5px #93bfcf;
   /* background-image: linear-gradient(#f48484, #af3568); */
   /* background-color: #e8d2a6; */
   text-align: left;
   min-width: 350px;
-  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
 }
 li.botao-menu-cidades {
   list-style: none;
@@ -42,21 +42,45 @@ li.botao-menu-cidades {
   font-weight: 700;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #252f38;
+  color: #35495c;
 }
 li.botao-menu-cidades:hover {
-  background-color: #f48484;
+  background-color: #93bfcf;
 }
 li.botao-menu-cidades > span {
   padding-left: 1.4rem;
 }
 
 li.botao-menu-cidades:active {
-  background-color: #f48484;
+  background-color: #93bfcf;
+}
+
+ul.menu-praias {
+  list-style-type: none;
+  font-size: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #93bfcf;
+  text-align: left;
+  min-width: 350px;
+}
+
+li.botao-menu-praias {
+  list-style: none;
+  cursor: pointer;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+li.botao-menu-praias > span {
+  padding-left: 2rem;
+}
+
+li.botao-menu-praias:hover {
+  background-color: #bdcdd6;
 }
 
 div.praia-holder {
-  background-color: #f48484;
+  background-color: #bdcdd6;
   padding-top: 2rem;
   width: 80vw;
   max-width: 350px;
@@ -78,28 +102,4 @@ div.praia-holder > h4 {
 img.pico-img {
   max-width: 350px;
   margin-top: 2rem;
-}
-
-ul.menu-praias {
-  list-style-type: none;
-  font-size: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  background-color: #f48484;
-  text-align: left;
-  min-width: 350px;
-}
-
-li.botao-menu-praias {
-  list-style: none;
-  cursor: pointer;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-li.botao-menu-praias > span {
-  padding-left: 2rem;
-}
-
-li.botao-menu-praias:hover {
-  background-color: #f55050;
 }

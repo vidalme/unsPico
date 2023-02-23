@@ -9,6 +9,7 @@ const MenuCidades = ({ cidades }) => {
 
     const handleClick = (e) => {
       const clicado = cids.find((m) => m.id === e.target.id);
+      console.log(e.target);
       clicado && setSubMenu(clicado);
       clicado === subMenu && setSubMenu({});
     };
