@@ -42,7 +42,7 @@ export default function Praia(praia) {
         <h4>{pico.descricao}</h4>
       </div>
 
-      <PicsLoader urls={pico.pics} />
+      <PicsLoader loading="lazy" urls={pico.pics} />
     </section>
   );
 }

@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { MenuPraias } from "./MenuPraias";
 
-const MenuCidades = ({ cidades }) => {
-  const cids = cidades.meuJSON;
+function MenuCidades({ cidades }) {
+  const cids = cidades.data.record;
 
   if (cids ?? false) {
     const [subMenu, setSubMenu] = useState({});
@@ -32,6 +32,6 @@ const MenuCidades = ({ cidades }) => {
       </ul>
     );
   }
-};
+}
 
 export default MenuCidades;

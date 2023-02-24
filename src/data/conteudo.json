@@ -96,7 +96,6 @@
         "id": 1006,
         "nome": "Vizinho",
         "epoca": "Segundo semetre inteiro",
-
         "descricao": "Extensao da praia do futuro porem com protecao lateral",
         "mare": "Mesma mares da praia do futuro",
         "ondulacao": "Mesma ondulacao da praia do futuro",
@@ -122,11 +121,12 @@
       {
         "id": 1007,
         "nome": "PDD",
+        "epoca": "Segundo semetre inteiro",
 
         "descricao": "Porto das Dunas é um pico que quando tem ondulação se destaca pela clareza da agua e perfeicao das ondas, a agua é bem mais limpa que a da praia do futuro porem o mar é menor.",
         "mare": "Na enchente da parte da manha ou secando a tarde",
         "ondulacao": "ondulacao vinda de norte e nordeste",
-        "vento": "terralzinho no fim da tarde é perfeito",
+        "vento": "cedinho ou fdt quando tem menos vento",
         "pics": {
           "path": "/imgs/aquiraz/pdd/",
           "urls": [
@@ -142,32 +142,27 @@
       {
         "id": 1008,
         "nome": "Iguape",
-
+        "epoca": "Qualquer epoca do ano pode ter, mas precisa de uma ondulacao forte",
         "descricao": "Fica completamente flat sem ondulação boa, apenas com uma direita longa no pontao, porem quando entra swell com um vento terral aqui gera uma das ondas mas perfeitas da costa leste",
         "mare": "Mare bem cheia ou de meia pra cheia",
         "ondulacao": "Norte e Nordeste",
         "vento": "Terral da aquela penteada na crista, mas funciona com vento maral tb, deixa storm e grande",
         "pics": {
-          "path": "/imgs/fortaleza/sabiaguaba/",
-          "urls": ["sabi01.jpg", "sabi02.jpg", "sabi03.jpg"]
+          "path": "/imgs/aquiraz/iguape/",
+          "urls": ["igua01.jpg", "igua02.jpg", "igua03.jpg"]
         }
       },
       {
         "id": 1009,
         "nome": "Lagoinha",
+        "epoca": "parecido com o Iguape porem ainda mais perfeito",
         "descricao": "Comumente pequeno porem com uma onda bem formada, pico disputado mas com espaco legal pra todo mundo",
         "mare": "Na enchente da parte da manha ou secando a tarde",
         "ondulacao": "ondulacao vinda de norte e nordeste",
         "vento": "terralzinho no fim da tarde é perfeito",
         "pics": {
-          "path": "/imgs/fortaleza/cofeco/",
-          "urls": [
-            "cofeco01.jpg",
-            "cofeco02.jpg",
-            "cofeco03.jpg",
-            "cofeco04.jpg",
-            "cofeco05.jpg"
-          ]
+          "path": "/imgs/aquiraz/lagoinha/",
+          "urls": ["lago01.jpg", "lago02.jpg", "lago03.jpg"]
         }
       }
     ]
@@ -180,51 +175,51 @@
       {
         "id": 1010,
         "nome": "Iparana",
-
+        "epoca": "parecido com o Iguape porem ainda mais perfeito",
         "descricao": "Iparana se esconde atras do caminho saindo de fortaleza para o Icarai, com poucas vias de acesso e uma entrada sobre as pedras recebe poucos surfistas nao locais",
         "mare": "Na enchente da parte da manha ou secando a tarde",
         "ondulacao": "ondulacao vinda de norte e nordeste",
         "vento": "terralzinho no fim da tarde é perfeito",
         "pics": {
-          "path": "/imgs/fortaleza/praiadofuturo/",
-          "urls": [
-            "pf01.jpg",
-            "pf02.jpg",
-            "pf03.jpg",
-            "pf04.jpg",
-            "pf05.jpg",
-            "pf06.jpg"
-          ]
+          "path": "/imgs/caucaia/iparana/",
+          "urls": ["ipa01.jpg", "ipa02.jpg", "ipa03.jpg", "ipa04.jpg"]
         }
       },
       {
         "id": 1011,
         "nome": "Icarai",
-
+        "epoca": "ano inteiro",
         "descricao": "Funciona melhor quando as pedras ficam cobertas de areia por conta do backwash, period de fevereiro ate junho",
         "mare": "Mare bem cheia ou de meia pra cheia",
         "ondulacao": "Norte e Nordeste",
         "vento": "Terral da aquela penteada na crista, mas funciona com vento maral tb, deixa storm e grande",
         "pics": {
-          "path": "/imgs/fortaleza/sabiaguaba/",
-          "urls": ["sabi01.jpg", "sabi02.jpg", "sabi03.jpg"]
+          "path": "/imgs/caucaia/icarai/",
+          "urls": [
+            "ica01.jpg",
+            "ica02.jpg",
+            "ica03.jpg",
+            "ica04.jpg",
+            "ica05.jpg"
+          ]
         }
       },
       {
         "id": 1012,
         "nome": "Pico das Almas",
+        "epoca": "basicamente so rola 1 ou 2 meses do ano, mas quando encaixa fica gigante",
         "descricao": "Comumente pequeno porem com uma onda bem formada, pico disputado mas com espaco legal pra todo mundo",
         "mare": "Na enchente da parte da manha ou secando a tarde",
         "ondulacao": "ondulacao vinda de norte e nordeste",
         "vento": "terralzinho no fim da tarde é perfeito",
         "pics": {
-          "path": "/imgs/fortaleza/cofeco/",
+          "path": "/imgs/caucaia/pda/",
           "urls": [
-            "cofeco01.jpg",
-            "cofeco02.jpg",
-            "cofeco03.jpg",
-            "cofeco04.jpg",
-            "cofeco05.jpg"
+            "pda01.jpg",
+            "pda02.jpg",
+            "pda03.jpg",
+            "pda04.jpg",
+            "pda05.jpg"
           ]
         }
       }
@@ -326,195 +321,103 @@
   },
 
   {
-    "nome": "Noronha",
+    "nome": "Pipa",
     "id": "5",
-    "url": "/Ubatuba.html",
     "praias": [
       {
         "id": 1013,
-        "nome": "Itamambuca",
-
+        "nome": "Praia do Amor",
+        "epoca": "segundo semestre",
         "descricao": "Praia de Itamambuca ja foi pico de etapa do WCT, com uma direita fenomenal",
         "mare": "Na enchente da parte da manha ou secando a tarde",
         "ondulacao": "ondulacao vinda de norte e nordeste",
         "vento": "terralzinho no fim da tarde é perfeito",
         "pics": {
-          "path": "/imgs/fortaleza/praiadofuturo/",
+          "path": "/imgs/pipa/pda/",
           "urls": [
-            "pf01.jpg",
-            "pf02.jpg",
-            "pf03.jpg",
-            "pf04.jpg",
-            "pf05.jpg",
-            "pf06.jpg"
+            "pda01.jpg",
+            "pda02.jpg",
+            "pda03.jpg",
+            "pda04.jpg",
+            "pda05.jpg",
+            "pda06.jpg"
           ]
         }
       },
       {
         "id": 1014,
-        "nome": "Vermelha",
-
+        "nome": "Abacateiro",
+        "epoca": "segundo semestre",
         "descricao": "Funciona melhor quando as pedras ficam cobertas de areia por conta do backwash, period de fevereiro ate junho",
         "mare": "Mare bem cheia ou de meia pra cheia",
         "ondulacao": "Norte e Nordeste",
         "vento": "Terral da aquela penteada na crista, mas funciona com vento maral tb, deixa storm e grande",
         "pics": {
-          "path": "/imgs/fortaleza/sabiaguaba/",
-          "urls": ["sabi01.jpg", "sabi02.jpg", "sabi03.jpg"]
+          "path": "/imgs/pipa/abacateiro/",
+          "urls": ["aba01.jpg", "aba02.jpg", "aba03.jpg"]
         }
       },
       {
         "id": 1015,
-        "nome": "Felix",
+        "nome": "Cacimbinha",
+        "epoca": "segundo semestre",
         "descricao": "Comumente pequeno porem com uma onda bem formada, pico disputado mas com espaco legal pra todo mundo",
         "mare": "Na enchente da parte da manha ou secando a tarde",
         "ondulacao": "ondulacao vinda de norte e nordeste",
         "vento": "terralzinho no fim da tarde é perfeito",
         "pics": {
-          "path": "/imgs/fortaleza/cofeco/",
+          "path": "/imgs/pipa/cacimbinha/",
           "urls": [
-            "cofeco01.jpg",
-            "cofeco02.jpg",
-            "cofeco03.jpg",
-            "cofeco04.jpg",
-            "cofeco05.jpg"
+            "cac01.jpg",
+            "cac02.jpg",
+            "cac03.jpg",
+            "cac04.jpg",
+            "cac05.jpg"
           ]
         }
       },
       {
         "id": 1016,
-        "nome": "Português",
+        "nome": "Baia Formosa",
+        "epoca": "segundo semestre",
         "descricao": "Comumente pequeno porem com uma onda bem formada, pico disputado mas com espaco legal pra todo mundo",
         "mare": "Na enchente da parte da manha ou secando a tarde",
         "ondulacao": "ondulacao vinda de norte e nordeste",
         "vento": "terralzinho no fim da tarde é perfeito",
         "pics": {
-          "path": "/imgs/fortaleza/cofeco/",
+          "path": "/imgs/pipa/baiaformosa/",
           "urls": [
-            "cofeco01.jpg",
-            "cofeco02.jpg",
-            "cofeco03.jpg",
-            "cofeco04.jpg",
-            "cofeco05.jpg"
+            "bai01.jpg",
+            "bai02.jpg",
+            "bai03.jpg",
+            "bai04.jpg",
+            "bai05.jpg"
           ]
         }
       },
       {
         "id": 1017,
-        "nome": "Toninhas",
+        "nome": "Madeiro",
+        "epoca": "Madeiro é marola o ano inteiro",
         "descricao": "Comumente pequeno porem com uma onda bem formada, pico disputado mas com espaco legal pra todo mundo",
         "mare": "Na enchente da parte da manha ou secando a tarde",
         "ondulacao": "ondulacao vinda de norte e nordeste",
         "vento": "terralzinho no fim da tarde é perfeito",
         "pics": {
-          "path": "/imgs/fortaleza/cofeco/",
+          "path": "/imgs/pipa/madeiro/",
           "urls": [
-            "cofeco01.jpg",
-            "cofeco02.jpg",
-            "cofeco03.jpg",
-            "cofeco04.jpg",
-            "cofeco05.jpg"
+            "mad01.jpg",
+            "mad02.jpg",
+            "mad03.jpg",
+            "mad04.jpg",
+            "mad05.jpg"
           ]
         }
       }
     ]
   },
   {
-    "nome": "Tibau",
-    "id": "6",
-    "url": "/Ubatuba.html",
-    "praias": [
-      {
-        "id": 1013,
-        "nome": "Itamambuca",
-
-        "descricao": "Praia de Itamambuca ja foi pico de etapa do WCT, com uma direita fenomenal",
-        "mare": "Na enchente da parte da manha ou secando a tarde",
-        "ondulacao": "ondulacao vinda de norte e nordeste",
-        "vento": "terralzinho no fim da tarde é perfeito",
-        "pics": {
-          "path": "/imgs/fortaleza/praiadofuturo/",
-          "urls": [
-            "pf01.jpg",
-            "pf02.jpg",
-            "pf03.jpg",
-            "pf04.jpg",
-            "pf05.jpg",
-            "pf06.jpg"
-          ]
-        }
-      },
-      {
-        "id": 1014,
-        "nome": "Vermelha",
-
-        "descricao": "Funciona melhor quando as pedras ficam cobertas de areia por conta do backwash, period de fevereiro ate junho",
-        "mare": "Mare bem cheia ou de meia pra cheia",
-        "ondulacao": "Norte e Nordeste",
-        "vento": "Terral da aquela penteada na crista, mas funciona com vento maral tb, deixa storm e grande",
-        "pics": {
-          "path": "/imgs/fortaleza/sabiaguaba/",
-          "urls": ["sabi01.jpg", "sabi02.jpg", "sabi03.jpg"]
-        }
-      },
-      {
-        "id": 1015,
-        "nome": "Felix",
-        "descricao": "Comumente pequeno porem com uma onda bem formada, pico disputado mas com espaco legal pra todo mundo",
-        "mare": "Na enchente da parte da manha ou secando a tarde",
-        "ondulacao": "ondulacao vinda de norte e nordeste",
-        "vento": "terralzinho no fim da tarde é perfeito",
-        "pics": {
-          "path": "/imgs/fortaleza/cofeco/",
-          "urls": [
-            "cofeco01.jpg",
-            "cofeco02.jpg",
-            "cofeco03.jpg",
-            "cofeco04.jpg",
-            "cofeco05.jpg"
-          ]
-        }
-      },
-      {
-        "id": 1016,
-        "nome": "Português",
-        "descricao": "Comumente pequeno porem com uma onda bem formada, pico disputado mas com espaco legal pra todo mundo",
-        "mare": "Na enchente da parte da manha ou secando a tarde",
-        "ondulacao": "ondulacao vinda de norte e nordeste",
-        "vento": "terralzinho no fim da tarde é perfeito",
-        "pics": {
-          "path": "/imgs/fortaleza/cofeco/",
-          "urls": [
-            "cofeco01.jpg",
-            "cofeco02.jpg",
-            "cofeco03.jpg",
-            "cofeco04.jpg",
-            "cofeco05.jpg"
-          ]
-        }
-      },
-      {
-        "id": 1017,
-        "nome": "Toninhas",
-        "descricao": "Comumente pequeno porem com uma onda bem formada, pico disputado mas com espaco legal pra todo mundo",
-        "mare": "Na enchente da parte da manha ou secando a tarde",
-        "ondulacao": "ondulacao vinda de norte e nordeste",
-        "vento": "terralzinho no fim da tarde é perfeito",
-        "pics": {
-          "path": "/imgs/fortaleza/cofeco/",
-          "urls": [
-            "cofeco01.jpg",
-            "cofeco02.jpg",
-            "cofeco03.jpg",
-            "cofeco04.jpg",
-            "cofeco05.jpg"
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "nome": "Rio de Janeiro",
+    "nome": "Praia do Frances",
     "id": "7",
     "url": "/Ubatuba.html",
     "praias": [
