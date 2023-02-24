@@ -83,8 +83,8 @@ ul.menu-praias {
 li.botao-menu-praias {
   list-style: none;
   cursor: pointer;
-  padding-top: 0.6rem;
-  padding-bottom: 0.6rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
 }
 li.botao-menu-praias > span {
   padding-left: 2rem;
@@ -126,19 +126,13 @@ li.botao-menu-praias:hover {
 
 .img-icon-praia {
   background-blend-mode: color-dodge;
-
   margin-right: 1rem;
-}
-
-img.pico-img {
-  max-width: 350px;
-  /* margin-top: 1rem; */
 }
 
 .praia-holder-div {
   margin-left: 1.5rem;
 }
 .praias-pics {
+  margin-top: 1rem;
   width: 100%;
-  /* border: solid 2px greenyellow; */
 }

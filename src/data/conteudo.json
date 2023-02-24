@@ -128,14 +128,14 @@
         "ondulacao": "ondulacao vinda de norte e nordeste",
         "vento": "terralzinho no fim da tarde é perfeito",
         "pics": {
-          "path": "/imgs/fortaleza/praiadofuturo/",
+          "path": "/imgs/aquiraz/pdd/",
           "urls": [
-            "pf01.jpg",
-            "pf02.jpg",
-            "pf03.jpg",
-            "pf04.jpg",
-            "pf05.jpg",
-            "pf06.jpg"
+            "pdd01.jpg",
+            "pdd02.jpg",
+            "pdd03.jpg",
+            "pdd04.jpg",
+            "pdd05.jpg",
+            "pdd06.jpg"
           ]
         }
       },
