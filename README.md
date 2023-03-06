@@ -1,5 +1,5 @@
 # unsPico2
-Atualizando meu primeiro projeto para react
+first react project (look ma' no tutorials)
 
 Live 
 https://unspico2.netlify.app/
